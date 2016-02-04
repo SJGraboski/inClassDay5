@@ -1,0 +1,35 @@
+body {
+	width: 600px;
+	margin: 0 auto;
+}
+
+p {
+	font-family:georgia, times, serif;
+	font-size: 14px;
+	line-height: 1.5em;
+}
+
+h1, h2 {
+	font-family: helvetica, arial, sans-serif;
+}
+
+p.foreword {
+	color: #ddd;
+}
+
+h1:hover {
+	color: red;
+	font-family: serif;
+}
+
+p:nth-child(even) {
+	color: teal;
+}
+
+p::first-letter {
+	font-size:32px;
+}
+
+p::first-line {
+	line-height: 3em;
+}
