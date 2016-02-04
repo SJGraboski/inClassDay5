@@ -33,3 +33,10 @@ p::first-letter {
 p::first-line {
 	line-height: 3em;
 }
+.shadow{
+	box-shadow: 3px 5px yellow;
+	text-shadow:3px 5px orange;
+}
+.box{ border-radius:2px blue;
+
+}
